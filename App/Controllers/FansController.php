@@ -74,7 +74,7 @@ class FansController extends AControllerBase
                     }
                 }
             }
-            if (!$this->validateLength($_POST['password'])) {
+            if (!$this->validateLength($_POST['name'])) {
                 return 'Short name!';
             }
             if (!$this->validateLength($_POST['password'])) {
